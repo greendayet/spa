@@ -63,9 +63,9 @@ button{
 
 .effect-txt-white{
 	position: relative;
-	animation: effect_txt_white 5s forwards;
+	animation: effect_txt_white 4s forwards;
 	animation-timing-function: ease;
-	-webkit-animation: effect_txt_white 5s forwards;
+	-webkit-animation: effect_txt_white 4s forwards;
 	-webkit-animation-timing-function: ease;
 }
 
@@ -1013,10 +1013,7 @@ Responsive
 	h2{
 		font-size: 4.75vmin;
 	}
-	.hideme{
-		top:0px;
-		opacity: 1;
-	}
+	
 	.index_txt h2{
 		font-size: 6vmin;
 	}
