@@ -1025,6 +1025,9 @@ Responsive
 
 
 @media (max-width: 768px) {
+	body{
+		font-family: ‘cwTeXMing’, serif;
+	}
 	body,a,p{
 		font-size: 4vmin;
 	}
