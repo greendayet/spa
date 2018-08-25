@@ -1025,14 +1025,14 @@ Responsive
 
 
 @media (max-width: 768px) {
-	body{
-		font-family: ‘cwTeXMing’, serif;
-	}
 	body,a,p{
 		font-size: 4vmin;
 	}
 	h2{
 		font-size: 4.75vmin;
+	}
+	.index_txt h2{
+		font-size: 6vmin;
 	}
 	
 	.inner-wrapper,.inner-wrapper-about{
