@@ -1025,7 +1025,7 @@ Responsive
 
 
 @media (max-width: 768px) {
-	body,a,p,.inner-title-box h2 span{{
+	body,a,p,.inner-title-box h2 span{
 		font-size: 4vmin;
 	}
 	h2{
