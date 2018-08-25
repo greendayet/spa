@@ -1025,7 +1025,7 @@ Responsive
 
 
 @media (max-width: 768px) {
-	body{
+	body,a,p{
 		font-size: 5vmin;
 	}
 	.inner-wrapper,.inner-wrapper-about{
