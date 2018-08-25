@@ -79,24 +79,6 @@ button{
 	}
 
 
-nav.animation-hover > ul > li > a:before{
-	content: "";
-	height: 0px;
-	transform: translateY(-50%);
-	transition: all 0.9s;
-	transition-timing-function: ease;
-
-	-webkit-transform: translateY(-50%);
-	-webkit-transition: all 0.9s;
-	-webkit-transition-timing-function: ease;
-}
-
-.nav.animation-hover > ul > li > a:after{
-	height: 70px;
-	content: "";
-}
-
-
 
 /*================EFFECT================*/
 
@@ -1031,6 +1013,10 @@ Responsive
 	h2{
 		font-size: 4.75vmin;
 	}
+	.hideme{
+		top:0px;
+		opacity: 1;
+	}
 	.index_txt h2{
 		font-size: 6vmin;
 	}
@@ -1223,6 +1209,9 @@ Responsive
 	.bg-space{
 		background-size: 160%;
 		background-position: -180px 70px;
+	}
+	.index_txt{
+		margin-bottom: 350px;
 	}
 	
 }
