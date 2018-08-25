@@ -63,18 +63,18 @@ button{
 
 .effect-txt-white{
 	position: relative;
-	animation: effect_txt_white 4s forwards;
+	animation: effect_txt_white 3s forwards;
 	animation-timing-function: ease;
-	-webkit-animation: effect_txt_white 4s forwards;
+	-webkit-animation: effect_txt_white 3s forwards;
 	-webkit-animation-timing-function: ease;
 }
 
 @-webkit-keyframes effect_txt_white{
-		from{opacity: 0;top: 100px;}
+		from{opacity: 0;top: 130px;}
 		to{opacity: 1; top:0px;}
 	}
 	@keyframes effect_txt_white{
-		from{opacity: 0; top:100px;}
+		from{opacity: 0; top:130px;}
 		to{opacity: 1; top:0px;}
 	}
 
