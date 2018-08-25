@@ -7,7 +7,7 @@ html{
 }
 body{
 	color: #fff;
-	font-size: 1.75vmin;
+	font-size: 15px;
 	font-family: ‘cwTeXMing’, serif;
 	line-height: 1.75;
 	letter-spacing: 0.75px;
@@ -23,7 +23,7 @@ p{
 
 h2{
 	color:#ffe9c2;
-	font-size: 2.75vmin;
+	font-size: 21px;
 	margin: 15px 0px;
     padding-bottom: 15px;
 	border-bottom: solid 1px #ffe9c2;
@@ -1025,9 +1025,7 @@ Responsive
 
 
 @media (max-width: 768px) {
-	body,a,p{
-		font-size: 5vmin;
-	}
+	
 	.inner-wrapper,.inner-wrapper-about{
 		padding-bottom: 100px !important;
 	}
