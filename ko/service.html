@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
 </head>
 
 <body>
@@ -72,7 +73,7 @@
 				</div>
 		</header>
 		<div class="main">
-			<section class="inner-wrapper sec-service effect-txt-white">
+			<section class="inner-wrapper sec-service">
 				<div class="top-info">
 				<div class="inner-title-box"><h2>服務體驗 <span>Experience</span></h2></div>
 				<div class="intro">
@@ -82,7 +83,7 @@
 				</div>
 			</div>
 				<section class="service-list">
-<div class="service-box-wrapper hideme">					
+<div class="service-box-wrapper">					
 					<div class="service-box">
 						<figure><img src="images/img-service.jpg"></figure>
 						<div class="service-box-rightcontent">
@@ -114,7 +115,7 @@
 					</div>
 					</div>
 </div>			
-<div class="service-box-wrapper hideme">		
+<div class="service-box-wrapper">		
 					<div class="service-box">
 						<figure><img src="images/img-service.jpg"></figure>
 						<div class="service-box-rightcontent">
@@ -146,7 +147,7 @@
 					</div>
 					</div>
 </div>
-<div class="service-box-wrapper hideme">		
+<div class="service-box-wrapper">		
 					<div class="service-box">
 						<figure><img src="images/img-service.jpg"></figure>
 						<div class="service-box-rightcontent">
@@ -207,28 +208,3 @@
 </html>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script  src="js/index.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-            
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height() + 1300;
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1','top':'0'},2000);
-                    
-            }
-            
-        }); 
-    
-    });
-    
-});
-</script>

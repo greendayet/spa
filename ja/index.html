@@ -1,36 +1,37 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=2.0, user-scalable=no">
 <title>森 SPA</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
 </head>
 
 <body>
-	<div class="wrapper bg-index">
+	<div class="wrapper bg-index bg-index-m">
 		<header class="header">
 			<div class="header-group">
 			<h1><a href="index.html">森 SPA</a></h1>
-			<nav class="desktop animation-hover">
+			<nav class="desktop">
 				<ul>
-					<li><a href="about.html">關於我們</a></li>
-					<li><a href="service.html">服務體驗</a></li>
-					<li><a href="space.html">環境展示</a></li>
-					<li><a href="products.html">產品介紹</a></li>
-					<li><a href="news.html">優惠訊息</a></li>
-					<li><a href="contact.html">聯絡我們</a></li>
-					<li><a href="https://www.1111.com.tw/corp/72016534/#c4" target="_blank">徵才訊息</a></li>
+					<li><a href="about.html">森スパについて</a></li>
+					<li><a href="service.html">サービスの経験</a></li>
+					<li><a href="space.html">環境ディスプレイ</a></li>
+					<li><a href="products.html">サービスイントロ</a></li>
+					<li><a href="news.html">新着情報</a></li>
+					<li><a href="contact.html">お問い合せ</a></li>
+					<li><a href="https://www.1111.com.tw/corp/72016534/#c4" target="_blank">求人情報</a></li>
 					<li><div class="languagebox">	
 							<div class="dropdown">
-				    <button class="dropbtn">繁體中文
+				    <button class="dropbtn">日本語
 				      <i class="fa fa-caret-down" style="display: block;"></i>
 				    </button>
 				    <div class="dropdown-content">
 					  <a href="en/index.html">English</a>
-					  <a href="#">日本語</a>
+					  <a href="#">繁體中文</a>
 					  <a href="#">한국어</a>
 				    </div>
 				  </div>
@@ -75,7 +76,7 @@
 
 		<div class="main">
 			<section class="main-block">
-				<div class="index_txt effect-txt">
+				<div class="index_txt">
 					<h2>森SPA足體養生會館<br>滿足您身心靈的健康</h2>
 					<p>在忙碌緊湊的生活中，<br>
 提供現代人一處身心靈沉靜休憩的秘境。<br>
@@ -88,7 +89,7 @@
 中山區任何地點三人以上免費專車接駁
 </p>
 				</div>
-				<div class="main-block-bottom hideme">
+				<div class="main-block-bottom">
 				<div>
 					<figure><img src="images/s01.jpg"></figure><!--w535h360-->
 					<article>
@@ -112,7 +113,7 @@
 				</div>
 				</div>	
 			</section>
-			<section class="offer-info hideme">
+			<section class="offer-info">
 				<h2 style="margin-bottom: 0px;">優惠訊息</h2>
 				<ul class="offer-info-list">
 					<li><a href="news_cont.html">
@@ -145,8 +146,7 @@
 		<footer>
 			<section>
 				<div class="community-link">
-					<a href="#"><i class="fab fa-facebook-f"></i>
-
+					<a href="#"><i class="fab fa-facebook-f"></i></i>
 
 </a>
 				<a href="#"><i class="fab fa-line"></i></a>
@@ -176,29 +176,4 @@
             $(this).text($text);
         }
     });
-</script>
-<script type="text/javascript">
-	$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-            
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height() + 1000;
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1','top':'0'},2000);
-                    
-            }
-            
-        }); 
-    
-    });
-    
-});
 </script>
