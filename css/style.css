@@ -680,21 +680,21 @@ a.btn_music{
 }
 
 .sec-news h3{
-	font-size: 28px;
-	line-height: 32px;
+	font-size: 3vmin;
 	overflow: hidden;
 	clear: both;
-	line-height: 40px;
 }
 
 .sec-news h3 img{
 	float: left;
+	margin-right: 3%;
+    margin-top: 5px;
 }
 
 .sec-news h3 span{
 	display: block;
-	float: right;
-	width: 95%;
+	float: left;
+	width: 93%;
 	margin-top: -6px;
 }
 
@@ -1009,7 +1009,7 @@ Responsive
 	body,a,p,.inner-title-box h2 span{
 		font-size: 4vmin;
 	}
-	h2{
+	h2,.sec-news h3{
 		font-size: 4.75vmin;
 	}
 	
