@@ -315,7 +315,7 @@ nav li:nth-child(7) a{
 }
 
 .index_txt{
-	margin-bottom: 550px;	
+	margin-bottom: 650px;	
 }
 .index_txt h2{
 	color: #fff;
@@ -1025,7 +1025,7 @@ Responsive
 
 
 @media (max-width: 768px) {
-	body,a,p{
+	body,a,p,.inner-title-box h2 span{{
 		font-size: 4vmin;
 	}
 	h2{
