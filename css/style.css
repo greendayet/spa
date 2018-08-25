@@ -63,9 +63,9 @@ button{
 
 .effect-txt-white{
 	position: relative;
-	animation: effect_txt_white 3s forwards;
+	animation: effect_txt_white 2s forwards;
 	animation-timing-function: ease;
-	-webkit-animation: effect_txt_white 3s forwards;
+	-webkit-animation: effect_txt_white 2s forwards;
 	-webkit-animation-timing-function: ease;
 }
 
